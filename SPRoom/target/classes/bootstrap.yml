@@ -11,6 +11,8 @@ spring:
     consul:
       config:
         enabled: true
+        host: 10.160.0.18
+        port: 8500
         prefix: config
         defaultContext: application
         profileSeparator: '::'
